@@ -18,7 +18,8 @@
  *
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
- */
+ *//*
+
 package io.github.kvverti.colormatic.mixin.render;
 
 import io.github.kvverti.colormatic.Colormatic;
@@ -36,9 +37,11 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.Slice;
 
+*/
 /**
  * Provides tool durability bar color customization capability.
- */
+ *//*
+
 @Mixin(ItemRenderer.class)
 public abstract class ItemRendererMixin {
     @Redirect(
@@ -65,3 +68,4 @@ public abstract class ItemRendererMixin {
         DrawableHelper.fill(matrices, x1, y1, x2, y2, color);
     }
 }
+*/

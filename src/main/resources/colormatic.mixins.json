@@ -25,7 +25,6 @@
     "potion.StatusEffectMixin",
     "render.BackgroundRendererMixin",
     "render.FluidRendererMixin",
-    "render.ItemRendererMixin",
     "render.LightmapTextureManagerMixin",
     "render.WorldRendererMixin",
     "text.AbstractButtonWidgetMixin",
